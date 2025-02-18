@@ -1,0 +1,401 @@
+body {
+    background-color: #13161b;
+}
+
+button.buttonPrimary,
+button.active,
+button:hover,
+input[type="button"].buttonPrimary,
+input[type="button"].active,
+input[type="button"]:hover,
+input[type="reset"].buttonPrimary,
+input[type="reset"].active,
+input[type="reset"]:hover,
+input[type="submit"].buttonPrimary,
+input[type="submit"].active,
+input[type="submit"]:hover,
+.button.buttonPrimary,
+.button.active,
+.button:hover,
+a.button.buttonPrimary,
+a.button.active,
+a.button:hover {
+    color: #fff;
+}
+
+.dropdownMenu {
+    background-color: black;
+    color: #fff;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.dropdownMenu li>a {
+    color: #fdfdfd;
+}
+
+.dropdownMenu li.dropdownDivider {
+    border-top: 1px solid #3a3a3a;
+}
+
+.searchBarOpen .pageHeaderSearch {
+    background-color: #4b7bec;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pageHeaderPanel {
+    background-color: #000;
+}
+
+.mainMenu .boxMenu .boxMenuDepth1 {
+    background: #282c33;
+}
+
+.interactiveDropdownShowAll {
+    color: #fff;
+    background-color: #323947;
+}
+
+.interactiveDropdownHeader {
+    border-radius: 0;
+    color: #fff;
+    background-color: #000000;
+    border-top: none;
+}
+
+.interactiveDropdownItemsContainer,
+.popover {
+    background-color: #1c1f24;
+}
+
+.pageNavigation {
+    background-color: #1e2228;
+}
+
+.section>nav>ul,
+.filebaseFileList .filebaseFileCard {
+    border-radius: 10px;
+}
+
+.contentItem {
+    background: #1f232a;
+    border-radius: 10px;
+}
+
+.filebaseFileList>li {
+    overflow: visible;
+}
+
+.filebaseFileList .filebaseFileCard>.box128 {
+    padding: 20px;
+}
+
+.boxesSidebarLeft .box:not(.boxBorderless)>div,
+.boxesSidebarRight .box:not(.boxBorderless)>div,
+.tabMenuContent>.section>.section:not(:empty)>*,
+.containerList {
+    background-color: #1e2228;
+    border-radius: 10px;
+    box-shadow: 0 14px 20px -10px rgb(0 0 0 / 65%);
+}
+
+.boxesSidebarLeftHasMenu .boxContainer .box {
+    background: #000000;
+    border-radius: 10px;
+}
+
+.boxesSidebarLeft .box .boxMenu li.active>.boxMenuLink,
+.boxesSidebarRight .box .boxMenu li.active>.boxMenuLink {
+    background-color: #13161b;
+    border-radius: 4px;
+}
+
+.boxesSidebarLeft .boxTitle,
+.boxesSidebarRight .boxTitle {
+    color: #91949f;
+}
+
+.boxesSidebarLeft a,
+.boxesSidebarRight a {
+    color: #92b3ff;
+}
+
+.interactiveDropdown.interactiveDropdownUserMenu>.interactiveDropdownItemsContainer a {
+    color: #92b3ff;
+}
+
+html:not(.touch) button:hover,
+html:not(.touch) input[type="button"]:hover,
+html:not(.touch) input[type="reset"]:hover,
+html:not(.touch) input[type="submit"]:hover,
+html:not(.touch) .button:hover,
+html:not(.touch) a.button:hover {
+    color: white;
+}
+
+.filebaseFileList .filebaseFileCard {
+    background-color: #1e2228;
+    box-shadow: 0 14px 20px -10px rgb(0 0 0 / 65%);
+}
+
+.tabMenu>ul>li>a,
+.menu>ul>li>a {
+    padding: 3px 0 5px 0;
+}
+
+.section>nav>ul {
+    background-color: #000;
+    border: none;
+    padding: 12px 20px;
+}
+
+.filebaseFileList .filebaseFileFooter {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #282c33;
+}
+
+.boxesFooterBoxes {
+    background-color: #282c33;
+}
+
+.boxesHeaderBoxes,
+.pageFooter {
+    background-color: #1e2228;
+}
+
+.sidebar .boxTitle .badge {
+    background: #000;
+    color: #fff;
+}
+
+.message,
+.content>form {
+    background: #1e2228;
+    border-radius: 10px;
+}
+
+.tabularList {
+    background: #1e2228;
+    border-radius: 10px;
+}
+
+.wbbBoardList>li.wbbRootNode {
+    background: #1c2026;
+}
+
+.wbbBoardList>li.wbbRootNode>header {
+    background-color: #282c33;
+    border-top: none;
+}
+
+.filebaseFileContent .filebaseFileTeaser {
+    display: inline-block;
+}
+
+.scTabmenuBBCode nav>ul>li {
+    margin-top: 0;
+}
+
+.pagination>ul>li.disabled>span {
+    color: rgb(111 121 131 / 90%);
+}
+
+.pagination>ul>li.active>a,
+.pagination>ul>li.active>span,
+.pagination>ul>li>a:hover {
+    background-color: #677079;
+    border-radius: 4px;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button,
+a.button {
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.redactor-box,
+.messageTabMenuNavigation>ul,
+.messageTabMenu>.messageTabMenuContent.active,
+.messageContent.loading>.messageContentLoadingOverlay {
+    background-color: #2c313a;
+}
+
+.commentListAddComment.collapsed {
+    background-color: #2c313a;
+}
+
+.containerHeadline>h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#comments,
+#versions {
+    margin-top: 20px
+}
+
+.contentHeader .contentTitle {
+    padding: 0;
+    font-weight: bold;
+}
+
+.contentHeader .contentHeaderIcon {
+    flex: 0 0 auto;
+}
+
+.contentHeaderIcon img:not(.userAvatarImage) {
+    width: 74px !important;
+    height: 74px !important;
+}
+
+.icon,
+.fa {
+    color: #ffffff;
+}
+
+.dialogOverlay::before {
+    background-color: rgb(0 0 0 / 60%);
+}
+
+.dialogContainer {
+    border-radius: 10px;
+    background-color: #1e2228;
+    box-shadow: 0 3px 25px 0 rgb(0 0 0 / 67%);
+}
+
+.dialogContainer>header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #282c33;
+    box-shadow: inset 0 6px 10px rgb(255 255 255 / 2%);
+    border: none;
+}
+
+.dialogContainer>.dialogContent .dialogFormSubmit {
+    background: #141820;
+}
+
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+select,
+textarea,
+.inputItemList,
+.inputItemList:focus,
+.inputItemList:hover {
+    background: #272a2f;
+}
+
+li .box128 {
+    padding: 0 20px;
+}
+
+.box128>:last-child {
+    margin-left: 10px;
+}
+
+.filebaseFileCard .box128>:last-child {
+    margin-left: 0;
+}
+
+.scTabmenuBBCode .tabMenuContent:not(.tabMenuContainer) {
+    border: 1px solid #494f57;
+    border-radius: 10px;
+}
+
+.htmlContent img,
+.messageBody>.messageText img,
+.messageSignature>div img,
+.redactor-layer img {
+    border-radius: 10px;
+}
+
+.messageSidebar {
+    background-color: #323947;
+}
+
+.messageContent .tagList {
+    margin: 20px 0 0;
+    padding: 20px;
+    background-color: #282c33;
+}
+
+.messageFooterGroup {
+    padding: 0 20px;
+}
+
+.tagList .tag {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 2px;
+}
+
+fieldset {
+    background-color: rgb(255 255 255 / 5%);
+    border-color: #4b7bec;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+.buttonGroup>li .button,
+.messageFooterButtons>li .button,
+.messageFooterButtonsExtra>li .button {
+    border: 1px solid transparent;
+}
+
+.tabMenu>ul>li::before,
+.menu>ul>li::before {
+    top: 37px;
+    border-top: 2px solid #4b7bec;
+}
+
+.scTabmenuBBCode a.externalURL {
+    color: #646c80;
+}
+
+div#category-3,
+div#category-73 {
+    margin-top: 20px;
+}
+
+.faq .question>.collapsibleQuestion {
+    color: #bfc7dc;
+}
+
+@media screen and (max-width: 1024px) {
+    .content:first-child+.boxesSidebarRight {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .boxesSidebarLeft.open::before,
+    .boxesSidebarRight.open::before {
+        border-radius: 4px;
+        color: #fff
+    }
+}
+
+@media screen and (max-width: 544px) {
+
+    .boxesSidebarLeft::before,
+    .boxesSidebarRight::before {
+        background-color: #323947;
+    }
+}
