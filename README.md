@@ -1,3 +1,5 @@
+https://hub.sp-tarkov.com/files/file/2692-spt-hub-overhaul
+
 Turn the hub into a more modern version. This is 100% safe to use, it's only a stylesheet. I have used it for a year, so it's pretty robust. I know this isn't for everyone. But if you're like me and spend a lot of time on the hub, then this is a nice upgrade until we get Forge.
 
 Here is how you use it:
